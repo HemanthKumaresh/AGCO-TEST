@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_DUajsDnnEeWnOZbnEqNz0g"
+    name="temp_process">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_jGCuwDqWEeWdCId61eGGcQ"
+      name="length" visibility="800" initValue="300">
+    <domain uuid="_jGCuwTqWEeWdCId61eGGcQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UkIfeORfEea8xOHyn3JswA" bitSet="393231"/>
+      <values uuid="_lU390DqWEeWdCId61eGGcQ" name="300"
+          visibility="300">
+        <displayName uuid="_AaCqYJVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_UirVcDtmEeW9EJAwzNHWdw"
+      name="info_for_sales" visibility="800" initValue="Here you write additional information">
+    <domain uuid="_UirVcTtmEeW9EJAwzNHWdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UkJGguRfEea8xOHyn3JswA" bitSet="393220"/>
+    </domain>
+  </variables>
+  <geometry uuid="_DUajsTnnEeWnOZbnEqNz0g" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_GfpJkDnnEeWnOZbnEqNz0g"
+        name="2DSVG_process">
+      <translation uuid="_AaCqZpVYEeyAE9_Corbzmw"/>
+      <file href="../../model.build#_wg1x8FccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDText" uuid="_-R8bYDrCEeW7eKf1zr21FA"
+        name="2DText_my_name" text="my_name" fontSize="25">
+      <facets xsi:type="comp:TwoDDynamicTextFacet" uuid="_UkJGhuRfEea8xOHyn3JswA"
+          textDynamic="my_name"/>
+      <translation uuid="_AaCqapVYEeyAE9_Corbzmw" x="10.0"
+          z="70.0"/>
+      <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+      <bgColor href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <parentPlugs uuid="_DUajsjnnEeWnOZbnEqNz0g" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_dEpAgDnnEeWnOZbnEqNz0g" name="nextLink"
+      public="false" type="LINKINSUBLINK" components="filling, NONE, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_UkJGjORfEea8xOHyn3JswA"
+        type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_UkJtkORfEea8xOHyn3JswA"/>
+    <domain uuid="_dEpAgTnnEeWnOZbnEqNz0g" name="local"
+        visibility="300">
+      <typeSet uuid="_UkJtk-RfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_eTFwoDnnEeWnOZbnEqNz0g" name="filling"
+          visibility="300">
+        <displayName uuid="_AaCqdJVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_e6r8IDnnEeWnOZbnEqNz0g" name=""
+          visibility="300">
+        <displayName uuid="_AaCqdpVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_fu8DkDnnEeWnOZbnEqNz0g" name=""
+          visibility="300">
+        <displayName uuid="_AaCqeJVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="N65652" name="NONE" visibility="300">
+        <displayName uuid="_AaCqepVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_KH3RkHABEeSk24oMIozLgA.xml#_KH3RkHABEeSk24oMIozLgA"/>
+</comp:ComponentTemplate>

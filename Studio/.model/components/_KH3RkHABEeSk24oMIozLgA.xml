@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_KH3RkHABEeSk24oMIozLgA" name="filling"
+    componentClass="LINK" toaPrefix="process">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_mQvXEDrAEeW7eKf1zr21FA"
+      name="my_name" visibility="800">
+    <domain uuid="_mQvXETrAEeW7eKf1zr21FA" name="local"
+        visibility="300">
+      <typeSet uuid="_Uj-HYORfEea8xOHyn3JswA" bitSet="4"/>
+      <values uuid="_m7lq4DrAEeW7eKf1zr21FA" name="Filling"
+          visibility="300">
+        <displayName uuid="_AZ45dpVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_rPw00DrLEeWyh9yBT0XVdw" name="Logic1"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_r139IDrMEeWyh9yBT0XVdw"
+        name="TableRelation1" visibility="800">
+      <columns uuid="_4rnggDrMEeWyh9yBT0XVdw" name="toa_speed"
+          visibility="100" databaseAlias="toa_speed">
+        <cells uuid="_AZ45epVYEeyAE9_Corbzmw" value="1"/>
+        <cells uuid="_AZ45e5VYEeyAE9_Corbzmw" value="2"/>
+        <cells uuid="_AZ45fJVYEeyAE9_Corbzmw" value="3"/>
+        <cells uuid="_AZ45fZVYEeyAE9_Corbzmw" value="4"/>
+      </columns>
+      <columns uuid="_4rnggTrMEeWyh9yBT0XVdw" name="equip2"
+          visibility="100" databaseAlias="equip2">
+        <cells uuid="_AZ45f5VYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45gJVYEeyAE9_Corbzmw" value="filler"/>
+        <cells uuid="_AZ45gZVYEeyAE9_Corbzmw" value="filler"/>
+        <cells uuid="_AZ45gpVYEeyAE9_Corbzmw" value="filler"/>
+      </columns>
+      <columns uuid="_4rnggjrMEeWyh9yBT0XVdw" name="equip3"
+          visibility="100" databaseAlias="equip3">
+        <cells uuid="_AZ45hJVYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45hZVYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45hpVYEeyAE9_Corbzmw" value="filler"/>
+        <cells uuid="_AZ45h5VYEeyAE9_Corbzmw" value="filler"/>
+      </columns>
+      <columns uuid="_4rnggzrMEeWyh9yBT0XVdw" name="equip4"
+          visibility="100" databaseAlias="equip4">
+        <cells uuid="_AZ45iZVYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45ipVYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45i5VYEeyAE9_Corbzmw" value="NONE"/>
+        <cells uuid="_AZ45jJVYEeyAE9_Corbzmw" value="filler"/>
+      </columns>
+    </children>
+  </logic>
+  <template href="_DUajsDnnEeWnOZbnEqNz0g.xml#_DUajsDnnEeWnOZbnEqNz0g"/>
+  <geometry uuid="_KH3RkXABEeSk24oMIozLgA" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDLine" uuid="_TPOcgDqVEeWdCId61eGGcQ"
+        name="2DLine1" strokeWidth="5" length="302.0">
+      <translation uuid="_AZ45kJVYEeyAE9_Corbzmw" z="-250.0"/>
+      <color href="../product_model.xml#N65572"/>
+    </twoDElement>
+    <units uuid="_ceaPcDrCEeW7eKf1zr21FA" name="placeEquip"
+        position="(0,0,-260)"/>
+    <parentPlugs uuid="_KH3RknABEeSk24oMIozLgA" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_W5OvoDrCEeW7eKf1zr21FA" name="equip1"
+      initValue="" components="filler, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_UkFcJuRfEea8xOHyn3JswA"
+        geoUnit="_ceaPcDrCEeW7eKf1zr21FA" position="(10,0,0)"/>
+    <domain uuid="_W5OvoTrCEeW7eKf1zr21FA" name="local"
+        visibility="300">
+      <typeSet uuid="_UkFcKeRfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_Y5YCcDrCEeW7eKf1zr21FA" name="filler"
+          visibility="300">
+        <displayName uuid="_AZ45mZVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_bSFQKDrLEeWyh9yBT0XVdw" name="equip2"
+      initValue="NONE" components="filler, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_UkFcL-RfEea8xOHyn3JswA"
+        geoUnit="_ceaPcDrCEeW7eKf1zr21FA" position="(70,0,0)"/>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_UkGqQORfEea8xOHyn3JswA" declared="true"
+        model="_rPw00DrLEeWyh9yBT0XVdw" select="CLOSEST"
+        flow="OUT">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <domain uuid="_bSFQKjrLEeWyh9yBT0XVdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UkGqQ-RfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_yaaVQDrZEeWyh9yBT0XVdw" name="filler"
+          visibility="300">
+        <displayName uuid="_AZ45oZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="N66405" name="NONE" visibility="300">
+        <displayName uuid="_AZ45o5VYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_bhHKqDrLEeWyh9yBT0XVdw" name="equip3"
+      initValue="NONE" components="filler, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_UkHRVuRfEea8xOHyn3JswA"
+        geoUnit="_ceaPcDrCEeW7eKf1zr21FA" position="(130,0,0)"/>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_UkHRV-RfEea8xOHyn3JswA" declared="true"
+        model="_rPw00DrLEeWyh9yBT0XVdw" select="CLOSEST"
+        flow="OUT">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <domain uuid="_bhHKqjrLEeWyh9yBT0XVdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UkHRWuRfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_y3_CEDrZEeWyh9yBT0XVdw" name="filler"
+          visibility="300">
+        <displayName uuid="_AZ45q5VYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="N66439" name="NONE" visibility="300">
+        <displayName uuid="_AZ45rZVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_nYxFYDrcEeWyh9yBT0XVdw" name="equip4"
+      initValue="NONE" components="filler, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_UkHRYeRfEea8xOHyn3JswA"
+        geoUnit="_ceaPcDrCEeW7eKf1zr21FA" position="(190,0,0)"/>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_UkHRYuRfEea8xOHyn3JswA" declared="true"
+        model="_rPw00DrLEeWyh9yBT0XVdw" select="CLOSEST"
+        flow="OUT">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <domain uuid="_nYxFYjrcEeWyh9yBT0XVdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UkH4YORfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_nYxFYzrcEeWyh9yBT0XVdw" name="filler"
+          visibility="300">
+        <displayName uuid="_AZ45tZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="N66473" name="NONE" visibility="300">
+        <displayName uuid="_AZ45t5VYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_AZ45uJVYEeyAE9_Corbzmw" value="Filling"/>
+</comp:Component>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_8fNuADTNEeSDp-UE12WecQ" deletable="false"
+    name="world" initialViewPoint="_x_QZwElnEeSga5qFy3girQ">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_D1PY0Dd2EeWRmrAuHeh1Ag"
+      name="drink_type" visibility="800" initValue="water">
+    <domain uuid="_D1PY0Td2EeWRmrAuHeh1Ag" name="local"
+        visibility="300">
+      <typeSet uuid="_UmhFEORfEea8xOHyn3JswA" bitSet="393231"/>
+      <values uuid="_F4-LIDd2EeWRmrAuHeh1Ag" name="water"
+          visibility="300" preference="4">
+        <displayName uuid="_AaCqgZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_G1y_wDd2EeWRmrAuHeh1Ag" name="smoothie"
+          visibility="300" preference="3">
+        <displayName uuid="_AaCqg5VYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_NspM8DlREeWWD8GpiO38pw" name="soda"
+          visibility="300" preference="2">
+        <displayName uuid="_AaCqhZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_ORPu0DlREeWWD8GpiO38pw" name="beer"
+          visibility="300" preference="1">
+        <displayName uuid="_AaCqh5VYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ZhnbYDlHEeWWD8GpiO38pw"
+      name="drink_volume" visibility="800" initValue="33">
+    <domain uuid="_ZhnbYTlHEeWWD8GpiO38pw" name="local"
+        visibility="300">
+      <typeSet uuid="_UmhFGuRfEea8xOHyn3JswA" bitSet="393220"/>
+      <values uuid="_cT3gkDlHEeWWD8GpiO38pw" name="150"
+          visibility="300" preference="1">
+        <displayName uuid="_AaCqjJVYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_dnLikDlHEeWWD8GpiO38pw" name="75"
+          visibility="300" preference="2">
+        <displayName uuid="_AaCqjpVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_e14KUDlHEeWWD8GpiO38pw" name="50"
+          visibility="300" preference="3">
+        <displayName uuid="_AaCqkJVYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_gHQSoDlHEeWWD8GpiO38pw" name="33"
+          visibility="300" preference="4">
+        <displayName uuid="_AaCqkpVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_QYSaMDlZEeWWD8GpiO38pw"
+      name="bottle_type" visibility="800" initValue="plastic">
+    <domain uuid="_QYSaMTlZEeWWD8GpiO38pw" name="local"
+        visibility="300">
+      <typeSet uuid="_UmhsKuRfEea8xOHyn3JswA" bitSet="393231"/>
+      <values uuid="_Sd-7YDlZEeWWD8GpiO38pw" name="plastic"
+          visibility="300" preference="3">
+        <displayName uuid="_AaCql5VYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_Sko9ADlZEeWWD8GpiO38pw" name="glass"
+          visibility="300" preference="2">
+        <displayName uuid="_AaCqmZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_UIOPoDlZEeWWD8GpiO38pw" name="can"
+          visibility="300" preference="1">
+        <displayName uuid="_AaCqm5VYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_XA4xQDqKEeWdCId61eGGcQ"
+      name="volume_image" visibility="800">
+    <domain uuid="_XA4xQTqKEeWdCId61eGGcQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UmhsM-RfEea8xOHyn3JswA" bitSet="458756"/>
+      <values uuid="_j9DswDqKEeWdCId61eGGcQ" name="soda_150"
+          visibility="300">
+        <displayName uuid="_AaCqoJVYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_j9DswjqKEeWdCId61eGGcQ" name="soda_75"
+          visibility="300">
+        <displayName uuid="_AaCqopVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_j9DsxDqKEeWdCId61eGGcQ" name="soda_50"
+          visibility="300">
+        <displayName uuid="_AaCqpJVYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_j9DsxjqKEeWdCId61eGGcQ" name="soda_33"
+          visibility="300">
+        <displayName uuid="_AaCqppVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+      <values uuid="_j9DsyDqKEeWdCId61eGGcQ" name="beer_150"
+          visibility="300">
+        <displayName uuid="_AaCqqJVYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_j9DsyjqKEeWdCId61eGGcQ" name="beer_75"
+          visibility="300">
+        <displayName uuid="_AaCqqpVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_j9DszDqKEeWdCId61eGGcQ" name="beer_50"
+          visibility="300">
+        <displayName uuid="_AaCqrJVYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_j9DszjqKEeWdCId61eGGcQ" name="beer_33"
+          visibility="300">
+        <displayName uuid="_AaCqrpVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+      <values uuid="_j9Ds0DqKEeWdCId61eGGcQ" name="smoothie_150"
+          visibility="300">
+        <displayName uuid="_AaCqsJVYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_j9Ds0jqKEeWdCId61eGGcQ" name="smoothie_75"
+          visibility="300">
+        <displayName uuid="_AaCqspVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_j9Ds1DqKEeWdCId61eGGcQ" name="smoothie_50"
+          visibility="300">
+        <displayName uuid="_AaCqtJVYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_j9Ds1jqKEeWdCId61eGGcQ" name="smoothie_33"
+          visibility="300">
+        <displayName uuid="_AaCqtpVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+      <values uuid="_j9Ds2DqKEeWdCId61eGGcQ" name="water_150"
+          visibility="300">
+        <displayName uuid="_AaCquJVYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_j9Ds2jqKEeWdCId61eGGcQ" name="water_75"
+          visibility="300">
+        <displayName uuid="_AaCqupVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_j9Ds3DqKEeWdCId61eGGcQ" name="water_50"
+          visibility="300">
+        <displayName uuid="_AaCqvJVYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_j9Ds3jqKEeWdCId61eGGcQ" name="water_33"
+          visibility="300">
+        <displayName uuid="_AaCqvpVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_s8TfsDqKEeWdCId61eGGcQ"
+      name="bottle_image" visibility="800">
+    <domain uuid="_s8TfsTqKEeWdCId61eGGcQ" name="local"
+        visibility="300">
+      <typeSet uuid="_Umi6UORfEea8xOHyn3JswA" bitSet="458756"/>
+      <values uuid="_2c2o4DqKEeWdCId61eGGcQ" name="soda_glass"
+          visibility="300">
+        <displayName uuid="_AaCqw5VYEeyAE9_Corbzmw"
+            value="glass"/>
+      </values>
+      <values uuid="_2c2o4jqKEeWdCId61eGGcQ" name="soda_can"
+          visibility="300">
+        <displayName uuid="_AaCqxZVYEeyAE9_Corbzmw"
+            value="can"/>
+      </values>
+      <values uuid="_2c2o5DqKEeWdCId61eGGcQ" name="soda_plastic"
+          visibility="300">
+        <displayName uuid="_AaCqx5VYEeyAE9_Corbzmw"
+            value="plastic"/>
+      </values>
+      <values uuid="_2c2o5jqKEeWdCId61eGGcQ" name="water_glass"
+          visibility="300">
+        <displayName uuid="_AaCqyZVYEeyAE9_Corbzmw"
+            value="glass"/>
+      </values>
+      <values uuid="_2c2o6DqKEeWdCId61eGGcQ" name="water_can"
+          visibility="300">
+        <displayName uuid="_AaCqy5VYEeyAE9_Corbzmw"
+            value="can"/>
+      </values>
+      <values uuid="_2c2o6jqKEeWdCId61eGGcQ" name="water_plastic"
+          visibility="300">
+        <displayName uuid="_AaCqzZVYEeyAE9_Corbzmw"
+            value="plastic"/>
+      </values>
+      <values uuid="_2c2o7DqKEeWdCId61eGGcQ" name="beer_glass"
+          visibility="300">
+        <displayName uuid="_AaCqz5VYEeyAE9_Corbzmw"
+            value="glass"/>
+      </values>
+      <values uuid="_2c2o7TqKEeWdCId61eGGcQ" name="beer_can"
+          visibility="300">
+        <displayName uuid="_AaCq0ZVYEeyAE9_Corbzmw"
+            value="can"/>
+      </values>
+      <values uuid="_2c2o7jqKEeWdCId61eGGcQ" name="beer_plastic"
+          visibility="300">
+        <displayName uuid="_AaCq05VYEeyAE9_Corbzmw"
+            value="plastic"/>
+      </values>
+      <values uuid="_2c2o7zqKEeWdCId61eGGcQ" name="smoothie_glass"
+          visibility="300">
+        <displayName uuid="_AaCq1ZVYEeyAE9_Corbzmw"
+            value="glass"/>
+      </values>
+      <values uuid="_2c2o8DqKEeWdCId61eGGcQ" name="smoothie_can"
+          visibility="300">
+        <displayName uuid="_AaCq15VYEeyAE9_Corbzmw"
+            value="can"/>
+      </values>
+      <values uuid="_2c2o8TqKEeWdCId61eGGcQ" name="smoothie_plastic"
+          visibility="300">
+        <displayName uuid="_AaCq2ZVYEeyAE9_Corbzmw"
+            value="plastic"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_0mdIgDr5EeW-evjdT3l3QQ"
+      name="toa_bottle_type" visibility="800" initValue="glass">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_UmkIaORfEea8xOHyn3JswA" mirroredVariable="bottle_type"/>
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_Uml9kORfEea8xOHyn3JswA"
+        defaultVar="toa_bottle_type"/>
+    <domain uuid="_0mdvkDr5EeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_Uml9k-RfEea8xOHyn3JswA" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_PR_OIDnVEeWnOZbnEqNz0g" name="Calculation2"
+      visibility="800">
+    <text>bottle_image=  drink_type + &quot;_&quot; + bottle_type;&#xD;
+volume_image = drink_type + &quot;_&quot; + drink_volume;</text>
+  </calculation>
+  <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
+      customType="insertfree">
+    <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
+        visibility="300">
+      <typeSet uuid="_UmnLtORfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_5CNYEDm6EeWfQ_oMDfUKzA" name="line"
+          visibility="300">
+        <displayName uuid="_AaCq5JVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </role>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoD"
+      uuid="_x_QZwElnEeSga5qFy3girQ" name="ViewPoint_initial"
+      fieldOfView="1400">
+    <position xsi:type="appl:CoordinateTwoD" uuid="_AaCq5pVYEeyAE9_Corbzmw"/>
+  </abstractViewPoints>
+  <customData uuid="_BkE0gJVYEeyAE9_Corbzmw" name="Custom_Data"
+      initValue="000000" refID="customdata"/>
+</comp:World>

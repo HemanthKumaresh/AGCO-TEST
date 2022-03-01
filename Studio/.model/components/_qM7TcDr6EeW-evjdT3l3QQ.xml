@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_qM7TcDr6EeW-evjdT3l3QQ"
+    name="temp_equip">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_xP18kDr6EeW-evjdT3l3QQ"
+      name="bottle_image" visibility="800" initValue="bottle_glass.svg">
+    <domain uuid="_xP18kTr6EeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UkKUoeRfEea8xOHyn3JswA" bitSet="458756"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DLJrkDr7EeW-evjdT3l3QQ"
+      name="toa_bottle_type" visibility="800" initValue="world:toa_bottle_type">
+    <domain uuid="_DLJrkTr7EeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UkKUp-RfEea8xOHyn3JswA" bitSet="458756"/>
+    </domain>
+  </variables>
+  <calculation uuid="_roPa4Dr6EeW-evjdT3l3QQ" name="Calculation5"
+      visibility="800">
+    <text>bottle_image = &quot;bottle_&quot; + toa_bottle_type + &quot;.svg&quot;;</text>
+  </calculation>
+  <geometry uuid="_qM7TcTr6EeW-evjdT3l3QQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_qM7Tcjr6EeW-evjdT3l3QQ" name="ParentPlug"/>
+  </geometry>
+  <componentsUsingMe xsi:type="comp:Component" href="_P76YMDrCEeW7eKf1zr21FA.xml#_P76YMDrCEeW7eKf1zr21FA"/>
+</comp:ComponentTemplate>

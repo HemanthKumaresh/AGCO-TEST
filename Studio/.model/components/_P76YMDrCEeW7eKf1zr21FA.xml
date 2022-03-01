@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_P76YMDrCEeW7eKf1zr21FA" name="filler"
+    componentClass="PARTOF" partOf="true" toaPrefix="equip">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_VUL2kFcgEeWZJd_SMpQ2zg"
+      name="toa_bottle_type" visibility="800" initValue="world:toa_bottle_type">
+    <domain uuid="_VUVnkFcgEeWZJd_SMpQ2zg" name="local"
+        visibility="300">
+      <typeSet uuid="_UkH4a-RfEea8xOHyn3JswA" bitSet="458756"/>
+    </domain>
+  </variables>
+  <template href="_qM7TcDr6EeW-evjdT3l3QQ.xml#_qM7TcDr6EeW-evjdT3l3QQ"/>
+  <geometry uuid="_P76YMTrCEeW7eKf1zr21FA" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_m-gxIDrCEeW7eKf1zr21FA"
+        name="fillerEquip">
+      <translation uuid="_AZ45aZVYEeyAE9_Corbzmw"/>
+      <file href="../../model.build#_dfQ-cFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_E92R4DrzEeW-evjdT3l3QQ"
+        name="bottleImage">
+      <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_UkH4b-RfEea8xOHyn3JswA"
+          fileDynamic="bottle_image"/>
+      <translation uuid="_AZ45bZVYEeyAE9_Corbzmw" z="120.0"/>
+      <file href="../../model.build#_YazmEFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <parentPlugs uuid="_P76YMjrCEeW7eKf1zr21FA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_AZ45cJVYEeyAE9_Corbzmw" value="Filling Equipment"/>
+</comp:Component>

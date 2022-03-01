@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui:GUIModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:gui="http://virtubild.com/schemas/gui.ecore"
+    uuid="_UkLiwORfEea8xOHyn3JswA" deletable="false">
+  <style uuid="_y1CuFP7MEd-ok_zz1c7U2w" deletable="false"
+      name="Styles">
+    <fontStyles uuid="_lKkykGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTab"
+        bold="true" size="16">
+      <color uuid="_AZpBs5VYEeyAE9_Corbzmw" red="128"
+          green="128" blue="128"/>
+    </fontStyles>
+    <fontStyles uuid="_ndmlIGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTabSub"
+        bold="true" size="13">
+      <color uuid="_AZpBtZVYEeyAE9_Corbzmw" red="128"
+          green="128" blue="128"/>
+    </fontStyles>
+    <fontStyles uuid="_9Tzp4G_4EeSb6NXyjhnDPg" name="DefaultFontStyleValue"
+        size="12">
+      <color uuid="_AZpBt5VYEeyAE9_Corbzmw" red="81"
+          green="81" blue="81"/>
+    </fontStyles>
+    <fontStyles uuid="__Rrr0G_4EeSb6NXyjhnDPg" name="DefaultFontStyleLabel"
+        size="12">
+      <color uuid="_AZpBuZVYEeyAE9_Corbzmw" red="128"
+          green="128" blue="128"/>
+    </fontStyles>
+    <fontStyles uuid="_3o-awHAIEeSePcy3DK4xYQ" name="DefaultFontStyleH1"
+        fontname="Letter Gothic Std" size="24">
+      <color uuid="_AZpBu5VYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </fontStyles>
+    <fontStyles uuid="_b4JIQDdiEeWRmrAuHeh1Ag" name="Font-ErrorIndicator"
+        fontname="Comic Sans MS" size="18">
+      <color uuid="_AZpBvZVYEeyAE9_Corbzmw" red="255"
+          green="151"/>
+    </fontStyles>
+    <fontStyles uuid="_F1R_MDk9EeWWD8GpiO38pw" name="ComicSansMs"
+        fontname="Comic Sans MS" size="24">
+      <color uuid="_AZpBv5VYEeyAE9_Corbzmw" red="128"
+          green="128" blue="128"/>
+    </fontStyles>
+    <imageStyles uuid="_ySA6gEljEeSsxfjC0m3AcA" name="DefaultLogo">
+      <path href="../model.build#_octfcGp3EeSSX_Brc-X50g"/>
+    </imageStyles>
+    <imageStyles uuid="_9YBYcDaeEeWAFM5M7sPVIA" name="Step1of3">
+      <path href="../model.build#_3w4w0DaeEeWAFM5M7sPVIA"/>
+    </imageStyles>
+    <imageStyles uuid="__zNogDaeEeWAFM5M7sPVIA" name="Step2of3">
+      <path href="../model.build#_4erD4DaeEeWAFM5M7sPVIA"/>
+    </imageStyles>
+    <imageStyles uuid="_BgdNcDafEeWAFM5M7sPVIA" name="Step3of3">
+      <path href="../model.build#_5Qs9wDaeEeWAFM5M7sPVIA"/>
+    </imageStyles>
+    <imageStyles uuid="_GHKR0DaqEeWAFM5M7sPVIA" name="Separator"/>
+    <itemStyles uuid="_yDmtsHAIEeSePcy3DK4xYQ" deletable="false"
+        name="default_item_style" font="_9Tzp4G_4EeSb6NXyjhnDPg"
+        length="100">
+      <bgColor uuid="_AZpBypVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </itemStyles>
+    <itemStyles uuid="_vA5FYDafEeWAFM5M7sPVIA" name="TopBarHeader"
+        font="_3o-awHAIEeSePcy3DK4xYQ">
+      <bgColor uuid="_AZpBzJVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </itemStyles>
+    <itemStyles uuid="_TXG7UDdiEeWRmrAuHeh1Ag" name="ItemStyle-ErrorIndicator"
+        font="_b4JIQDdiEeWRmrAuHeh1Ag">
+      <bgColor uuid="_AZpBzpVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </itemStyles>
+    <itemStyles uuid="_w0AdETtmEeW9EJAwzNHWdw" deletable="false"
+        name="item_style_inputarea" font="_9Tzp4G_4EeSb6NXyjhnDPg"
+        height="68" length="275">
+      <bgColor uuid="_AZpB0JVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </itemStyles>
+    <tioItemStyles xsi:type="gui:TIOStandardStyle" uuid="_5VOUcG_4EeSb6NXyjhnDPg"
+        name="DefaultTIOStyleVertical" fontText="__Rrr0G_4EeSb6NXyjhnDPg"
+        fontValue="_9Tzp4G_4EeSb6NXyjhnDPg" itemSpace="3"
+        stateShowerYAlignment="25" stateShowerStyle="_eTiFMG_3EeSb6NXyjhnDPg"
+        stateShowerSpace="5" textLength="150" valueLength="150"
+        design="VERTICAL">
+      <bgColor uuid="_AZpowJVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </tioItemStyles>
+    <tioItemStyles xsi:type="gui:TIOStandardStyle" uuid="_bbutcW_-EeSk24oMIozLgA"
+        deletable="false" name="default_tio_standard_item_style"
+        fontText="__Rrr0G_4EeSb6NXyjhnDPg" fontValue="_9Tzp4G_4EeSb6NXyjhnDPg"
+        itemSpace="5" stateShowerYAlignment="5" stateShowerStyle="_eTiFMG_3EeSb6NXyjhnDPg"
+        stateShowerSpace="5" textLength="70" valueLength="75">
+      <bgColor uuid="_AZpowpVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </tioItemStyles>
+    <stateShowerStyles uuid="_eTiFMG_3EeSb6NXyjhnDPg"
+        name="DefaultStateShowerStyle">
+      <missingImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <userSetLockImage href="../model.build#_vA6MAG_4EeSb6NXyjhnDPg"/>
+      <userSetUnlockImage href="../model.build#_r8gm4G_4EeSb6NXyjhnDPg"/>
+      <initLockImage href="../model.build#_sjyCQG_4EeSb6NXyjhnDPg"/>
+      <initUnlockImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <consequenceLockImage href="../model.build#_sjyCQG_4EeSb6NXyjhnDPg"/>
+      <consequenceUnlockImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <selectedLockImage href="../model.build#_sjyCQG_4EeSb6NXyjhnDPg"/>
+      <selectedUnlockImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <systemLockImage href="../model.build#_sjyCQG_4EeSb6NXyjhnDPg"/>
+      <systemUnlockImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+    </stateShowerStyles>
+    <buttonStyles uuid="_3QgI8bbqEeK305n3PlGMhg" name="DefaultButtonStyleImage"/>
+    <buttonStyles uuid="_Wgat8a-3EeOhZfF6nj1a5w" name="DefaultButtonStyleLAF"
+        borderSize="-1" useLAF="true"/>
+    <panelStyles uuid="_gg6S8bbnEeK305n3PlGMhg" name="DefaultXYPanelStyleTopBar">
+      <bgImage href="../model.build#_H51y4GqzEeSf2roTWK8_Lg"/>
+      <bgColor uuid="_AZpo05VYEeyAE9_Corbzmw" green="32"
+          blue="91"/>
+    </panelStyles>
+    <panelStyles uuid="_eKQvMbboEeK305n3PlGMhg" name="DefaultXYPanelStyleBottom">
+      <bgImage href="../model.build#_8uEBgGqzEeSf2roTWK8_Lg"/>
+      <bgColor uuid="_AZpo1pVYEeyAE9_Corbzmw" red="245"
+          green="245" blue="245"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_Bj_OoGq0EeSf2roTWK8_Lg"
+        name="DefaultFlowPanelStyleSettings" columnSpacing="30"
+        rowSpace="8">
+      <bgImage href="../model.build#_sIvxEGkgEeaW_tI_KQv2hQ"/>
+      <bgColor uuid="_AZpo2ZVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+      <margins uuid="_AZpo2pVYEeyAE9_Corbzmw" top="17"
+          bottom="10" left="20"/>
+    </panelStyles>
+    <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar">
+      <bgImage href="../model.build#_k2ufgGkhEeaW_tI_KQv2hQ"/>
+      <bgColor uuid="_AZpo3ZVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles uuid="_METOYDaZEeWAFM5M7sPVIA" name="PanelXYwhite">
+      <bgColor uuid="_AZpo35VYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles uuid="_X5lEMDaiEeWAFM5M7sPVIA" name="PanelXYgrayBGcolor">
+      <bgColor uuid="_AZpo4ZVYEeyAE9_Corbzmw" red="229"
+          green="229" blue="229"/>
+    </panelStyles>
+    <panelStyles uuid="_OhleMDdfEeWRmrAuHeh1Ag" name="PanelXYbgStep1">
+      <bgImage href="../model.build#_L564YDdfEeWRmrAuHeh1Ag"/>
+      <bgColor uuid="_AZpo5JVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles uuid="_r-QLADd0EeWRmrAuHeh1Ag" name="PanelXYbgStep3">
+      <bgImage href="../model.build#_FhHhQDd1EeWRmrAuHeh1Ag"/>
+      <bgColor uuid="_AZpo55VYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles uuid="_V5M6QDeGEeWRmrAuHeh1Ag" name="PanelXYbgTotalprice">
+      <bgImage href="../model.build#_UXi6QDeGEeWRmrAuHeh1Ag"/>
+      <bgColor uuid="_AZpo6pVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles uuid="_1Ii1wDk0EeWWD8GpiO38pw" name="PanelXYbgToolBarShowMore">
+      <bgImage href="../model.build#_HNbXgDk1EeWWD8GpiO38pw"/>
+      <bgColor uuid="_AZpo7ZVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_mhVfUDk1EeWWD8GpiO38pw"
+        name="FlowPanelSettingsMore" columnSpacing="30"
+        rowSpace="8">
+      <bgImage href="../model.build#_i1024Dk1EeWWD8GpiO38pw"/>
+      <bgColor uuid="_AZpo8JVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+      <margins uuid="_AZpo8ZVYEeyAE9_Corbzmw" top="17"
+          bottom="10" left="20"/>
+    </panelStyles>
+    <panelStyles uuid="_aSKFUDk4EeWWD8GpiO38pw" name="PanelXYbgToolBarShowLess">
+      <bgImage href="../model.build#_W8z6IDk4EeWWD8GpiO38pw"/>
+      <bgColor uuid="_AZpo9JVYEeyAE9_Corbzmw" red="255"
+          green="255" blue="255"/>
+    </panelStyles>
+    <tabStyles uuid="_wHX3UGpyEeSfCJnJCtaXOA" name="DefaultTabStyle"
+        nonSelectedFont="_lKkykGpyEeSfCJnJCtaXOA" selectedFont="_lKkykGpyEeSfCJnJCtaXOA"
+        textplacement="8,8">
+      <selectedImage href="../model.build#_Y66RwGq0EeSf2roTWK8_Lg"/>
+      <nonSelectedImage href="../model.build#_aWxLwGq0EeSf2roTWK8_Lg"/>
+      <disabledImage href="../model.build#_WP5dAGq0EeSf2roTWK8_Lg"/>
+    </tabStyles>
+    <tabStyles uuid="_wXvOkGpyEeSfCJnJCtaXOA" name="DefaultTabStyleSub"
+        nonSelectedFont="_ndmlIGpyEeSfCJnJCtaXOA" selectedFont="_ndmlIGpyEeSfCJnJCtaXOA"
+        textplacement="8,8">
+      <selectedImage href="../model.build#_A6kBsGq1EeSU5fRCDlCvNA"/>
+      <nonSelectedImage href="../model.build#_CLWUIGq1EeSU5fRCDlCvNA"/>
+      <disabledImage href="../model.build#__DzUYGq0EeSU5fRCDlCvNA"/>
+    </tabStyles>
+    <unitConversionStyles uuid="_FNWCcElsEeSga5qFy3girQ"
+        name="mm" pattern="#" postfix="mm" prefix=""/>
+    <imagedisplayerStyles uuid="_XC7DwDd4EeWRmrAuHeh1Ag"
+        name="ImageDisplayerStyle-drink" font="_F1R_MDk9EeWWD8GpiO38pw"
+        height="380" length="390"/>
+    <imagedisplayerStyles uuid="_v2twYTtQEeW9EJAwzNHWdw"
+        name="ImageDisplayerStyle-step3" font="_F1R_MDk9EeWWD8GpiO38pw"
+        height="541" length="420"/>
+    <tabPanelStyles uuid="_AZrd8ZVYEeyAE9_Corbzmw" name="DefaultTabStyleSub_newTabPanelStyle">
+      <startImage href="../model.build#_BfR4UGq1EeSU5fRCDlCvNA"/>
+      <fillerImage href="../model.build#_AQBP4Gq1EeSU5fRCDlCvNA"/>
+      <endImage href="../model.build#__rY40Gq0EeSU5fRCDlCvNA"/>
+    </tabPanelStyles>
+    <tabPanelStyles uuid="_AZrd9ZVYEeyAE9_Corbzmw" name="DefaultTabStyle_newTabPanelStyle">
+      <startImage href="../model.build#_Zq_D0Gq0EeSf2roTWK8_Lg"/>
+      <fillerImage href="../model.build#_X8JjcGq0EeSf2roTWK8_Lg"/>
+      <endImage href="../model.build#_XEvaUGq0EeSf2roTWK8_Lg"/>
+    </tabPanelStyles>
+  </style>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_-wRMgDaYEeWAFM5M7sPVIA"
+      name="MenuInTheTop" unitType="SINGLEPANEL" initialPanel="_GmHHYDaZEeWAFM5M7sPVIA">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZrd-pVYEeyAE9_Corbzmw"
+        height="46" width="1296"/>
+    <panels uuid="_GmHHYDaZEeWAFM5M7sPVIA" name="PanelWithMenuButtonsAndLogo"
+        panelType="XYPANEL" style="_METOYDaZEeWAFM5M7sPVIA"
+        toa="world">
+      <items xsi:type="gui:Image" uuid="_d1-_8DacEeWAFM5M7sPVIA"
+          name="ConfigitBuildLogo" xPosition="1089"
+          yPosition="12" style="_ySA6gEljEeSsxfjC0m3AcA"/>
+      <items xsi:type="gui:Button" uuid="_1qBxYDlkEeWdn7Z501yW2A"
+          name="reset" xPosition="32" yPosition="12"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <toolTip uuid="_UkaMQORfEea8xOHyn3JswA">
+          <text uuid="_AZrd_5VYEeyAE9_Corbzmw" value="Start over"/>
+        </toolTip>
+        <image href="../model.build#_wuWhkDlkEeWdn7Z501yW2A"/>
+        <text uuid="_AZreAZVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_svs9UDtqEeW9EJAwzNHWdw"
+            name="reload_w_warning" actionRef="_m1Ex8DtqEeW9EJAwzNHWdw"/>
+      </items>
+      <items xsi:type="gui:Button" uuid="_IMGlcDllEeWdn7Z501yW2A"
+          name="load local" xPosition="107" yPosition="12"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <toolTip uuid="_UkazUuRfEea8xOHyn3JswA">
+          <text uuid="_AZreBZVYEeyAE9_Corbzmw" value="Open configuration"/>
+        </toolTip>
+        <image href="../model.build#_tkHaMDlkEeWdn7Z501yW2A"/>
+        <text uuid="_AZreB5VYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:SystemAction"
+            uuid="_PloXwDllEeWdn7Z501yW2A" name="LoadLocal"
+            actionType="LOADLOCAL"/>
+      </items>
+      <items xsi:type="gui:Button" uuid="_JdkNUDllEeWdn7Z501yW2A"
+          name="save" xPosition="157" yPosition="12"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <toolTip uuid="_UkbaYuRfEea8xOHyn3JswA">
+          <text uuid="_AZreC5VYEeyAE9_Corbzmw" value="Save configuration"/>
+        </toolTip>
+        <image href="../model.build#_XvKqsDllEeWdn7Z501yW2A"/>
+        <text uuid="_AZsFAJVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:SystemAction"
+            uuid="_ZoeVsDllEeWdn7Z501yW2A" name="SaveLocal"
+            actionType="SAVELOCAL"/>
+      </items>
+      <items xsi:type="gui:Button" uuid="_6mORIDacEeWAFM5M7sPVIA"
+          name="ShowLog" xPosition="232" yPosition="12"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <toolTip uuid="_UkbaZeRfEea8xOHyn3JswA">
+          <text uuid="_AZsFBJVYEeyAE9_Corbzmw" value="Check configurator log for errors"/>
+        </toolTip>
+        <image href="../model.build#_c5_0AHYZEeSV1N5l7j34iw"/>
+        <text uuid="_AZsFBpVYEeyAE9_Corbzmw" value=""/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_6mORITacEeWAFM5M7sPVIA"
+            name="ShowLog" actionRef="_zliX0HYZEeSV1N5l7j34iw"/>
+      </items>
+      <items xsi:type="gui:ReadyIndicator" uuid="_7q-SsDacEeWAFM5M7sPVIA"
+          name="ReadyIndicator1" xPosition="478" yPosition="13"
+          style="_TXG7UDdiEeWRmrAuHeh1Ag">
+        <statusShow uuid="_UkcogeRfEea8xOHyn3JswA" radius="10"
+            width="310">
+          <statusDefs uuid="_7q-SsjacEeWAFM5M7sPVIA"
+              name="Error">
+            <text uuid="_AZt6M5VYEeyAE9_Corbzmw" value="Oh no, this model doesn't taste right. Please fix it."/>
+            <color uuid="_AZt6NJVYEeyAE9_Corbzmw" red="255"
+                green="255" blue="255"/>
+          </statusDefs>
+          <statusDefs uuid="_7q-SszacEeWAFM5M7sPVIA"
+              name="Working - No indicator" status="WORKING">
+            <text uuid="_AZt6NpVYEeyAE9_Corbzmw" value=""/>
+            <color uuid="_AZt6N5VYEeyAE9_Corbzmw" red="255"
+                green="255" blue="255"/>
+          </statusDefs>
+          <statusDefs uuid="_7q-SsTacEeWAFM5M7sPVIA"
+              name="Ready_OK - No indicator" status="READY">
+            <text uuid="_AZt6OZVYEeyAE9_Corbzmw" value=""/>
+            <color uuid="_AZt6OpVYEeyAE9_Corbzmw" red="255"
+                green="255" blue="255"/>
+          </statusDefs>
+        </statusShow>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_qXduADdhEeWRmrAuHeh1Ag"
+      name="Step1-TopBar" unitType="SINGLEPANEL" initialPanel="_qXduATdhEeWRmrAuHeh1Ag">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZt6PJVYEeyAE9_Corbzmw"
+        height="52" width="1296" yPosition="46"/>
+    <panels uuid="_qXduATdhEeWRmrAuHeh1Ag" name="top_bar"
+        panelType="XYPANEL" style="_gg6S8bbnEeK305n3PlGMhg">
+      <items xsi:type="gui:Image" uuid="_qXduBDdhEeWRmrAuHeh1Ag"
+          name="ImageStep1of3" xPosition="32" style="_9YBYcDaeEeWAFM5M7sPVIA"/>
+      <items xsi:type="gui:Button" uuid="_qXduBjdhEeWRmrAuHeh1Ag"
+          name="GoToNextPage" xPosition="1176" style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_IbO5EDdhEeWRmrAuHeh1Ag"/>
+        <text uuid="_AZt6QZVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_qXduBzdhEeWRmrAuHeh1Ag"
+            name="GoToStep2" actionRef="_2RRmIDk5EeWWD8GpiO38pw"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_UXMmsDdfEeWRmrAuHeh1Ag"
+      name="Step1-Settings" unitType="SINGLEPANEL" initialPanel="_zHz0MDdfEeWRmrAuHeh1Ag">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZt6RJVYEeyAE9_Corbzmw"
+        height="570" width="1296" yPosition="98"/>
+    <panels uuid="_zHz0MDdfEeWRmrAuHeh1Ag" name="Panel5"
+        panelType="XYPANEL" style="_OhleMDdfEeWRmrAuHeh1Ag">
+      <items xsi:type="gui:ImageDisplayer" uuid="_3y9SsDd1EeWRmrAuHeh1Ag"
+          name="01-ImageDisplayer-drink" xPosition="72"
+          yPosition="162" style="_XC7DwDd4EeWRmrAuHeh1Ag"
+          varName="world:drink_type" imageTable="_KLskkDd2EeWRmrAuHeh1Ag"
+          showText="true" horizontalTextPosition="CENTER"
+          verticalTextPosition="BOTTOM" verticalAlignment="BOTTOM"/>
+      <items xsi:type="gui:Button" uuid="_zplswDd5EeWRmrAuHeh1Ag"
+          name="choose_drink" xPosition="320" yPosition="150"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_pKLHkDd5EeWRmrAuHeh1Ag"/>
+        <imageDown href="../model.build#_p5E08Dd5EeWRmrAuHeh1Ag"/>
+        <text uuid="_AZwWdJVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_EoIRgDd6EeWRmrAuHeh1Ag"
+            name="choose_drink" actionRef="_sVAr4Dd5EeWRmrAuHeh1Ag"/>
+      </items>
+      <items xsi:type="gui:ImageDisplayer" uuid="_F1aRUDlZEeWWD8GpiO38pw"
+          name="02-ImageDisplayer-bottle" xPosition="440"
+          yPosition="162" style="_XC7DwDd4EeWRmrAuHeh1Ag"
+          varName="world:bottle_image" imageTable="_mM7yQDlZEeWWD8GpiO38pw"
+          showText="true" horizontalTextPosition="CENTER"
+          verticalTextPosition="BOTTOM" verticalAlignment="BOTTOM"/>
+      <items xsi:type="gui:Button" uuid="_KYqn0DleEeWdn7Z501yW2A"
+          name="choose_bottle" xPosition="670" yPosition="150"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_pKLHkDd5EeWRmrAuHeh1Ag"/>
+        <imageDown href="../model.build#_p5E08Dd5EeWRmrAuHeh1Ag"/>
+        <text uuid="_AZwWepVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_KYqn0TleEeWdn7Z501yW2A"
+            name="choose_bottle" actionRef="_Tn9B4DleEeWdn7Z501yW2A"/>
+      </items>
+      <items xsi:type="gui:ImageDisplayer" uuid="_GJUr0DlZEeWWD8GpiO38pw"
+          name="03-ImageDisplayer-volume" xPosition="835"
+          yPosition="162" style="_XC7DwDd4EeWRmrAuHeh1Ag"
+          varName="world:volume_image" imageTable="_1ox1MDlZEeWWD8GpiO38pw"
+          showText="true" horizontalTextPosition="CENTER"
+          verticalTextPosition="BOTTOM" verticalAlignment="BOTTOM"/>
+      <items xsi:type="gui:Button" uuid="_KpAw8DleEeWdn7Z501yW2A"
+          name="choose_volume" xPosition="1020" yPosition="150"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_pKLHkDd5EeWRmrAuHeh1Ag"/>
+        <imageDown href="../model.build#_p5E08Dd5EeWRmrAuHeh1Ag"/>
+        <text uuid="_AZwWgJVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_KpAw8TleEeWdn7Z501yW2A"
+            name="choose_liquid_level" actionRef="_XsPWsjleEeWdn7Z501yW2A"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_2sAOkbcHEeKEW-Ajb6cWbQ"
+      name="Step2-TopBar" unitType="SINGLEPANEL" initialPanel="_-yLEcbcHEeKEW-Ajb6cWbQ">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZwWg5VYEeyAE9_Corbzmw"
+        height="52" width="1296" yPosition="46" visible="false"/>
+    <panels uuid="_-yLEcbcHEeKEW-Ajb6cWbQ" name="top_bar"
+        panelType="XYPANEL" style="_gg6S8bbnEeK305n3PlGMhg">
+      <items xsi:type="gui:Image" uuid="_EYApYDafEeWAFM5M7sPVIA"
+          name="ImageStep2of3" xPosition="32" style="__zNogDaeEeWAFM5M7sPVIA"/>
+      <items xsi:type="gui:Button" uuid="_rRafsDdfEeWRmrAuHeh1Ag"
+          name="GoToPreviousPage" xPosition="1025" style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_JI_-ADdhEeWRmrAuHeh1Ag"/>
+        <text uuid="_AZwWiJVYEeyAE9_Corbzmw" value=""/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_tB93UDdfEeWRmrAuHeh1Ag"
+            name="GoToStep1" actionRef="_hSG98DdfEeWRmrAuHeh1Ag"/>
+      </items>
+      <items xsi:type="gui:Button" uuid="_QFJ4UJVYEeyAE9_Corbzmw"
+          name="Testbutton" xPosition="900" style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_JI_-ADdhEeWRmrAuHeh1Ag"/>
+        <text uuid="_QFJ4UZVYEeyAE9_Corbzmw" value=""/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_QFJ4UpVYEeyAE9_Corbzmw"
+            name="GoToStep1" actionRef="_VMIZMJVYEeyAE9_Corbzmw"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:ViewerGUIUnit" uuid="_mc-ZMbcdEeKEW-Ajb6cWbQ"
+      name="Step2-Viewer">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZwWi5VYEeyAE9_Corbzmw"
+        height="489" width="1147" xPosition="98" yPosition="109"
+        visible="false"/>
+    <bgColor uuid="_AZwWjJVYEeyAE9_Corbzmw" red="255"
+        green="255" blue="255"/>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_RzV8sGq1EeSU5fRCDlCvNA"
+      name="Step2-Inserter" unitType="SINGLEPANEL" initialPanel="_dG0cEGq1EeSU5fRCDlCvNA">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZwWjpVYEeyAE9_Corbzmw"
+        height="559" width="70" xPosition="17" yPosition="109"
+        visible="false"/>
+    <panels uuid="_dG0cEGq1EeSU5fRCDlCvNA" name="PanelInsert"
+        panelType="XYPANEL" style="_X5lEMDaiEeWAFM5M7sPVIA">
+      <items xsi:type="gui:InserterBar" uuid="_wDKZkHAAEeSk24oMIozLgA"
+          name="InserterBar" compgfxref="_1se1sHAEEeSePcy3DK4xYQ"
+          hideEmptyTabs="true" hideIllegal="true">
+        <guiLayout uuid="_Ukg58ORfEea8xOHyn3JswA" height="600"
+            width="350"/>
+        <position uuid="_UkhhAORfEea8xOHyn3JswA" x="-4"/>
+        <guiBarStyle uuid="_UkivIORfEea8xOHyn3JswA"
+            font="_ndmlIGpyEeSfCJnJCtaXOA" horizontal="LEFT"
+            useLAF="false">
+          <colorBackground uuid="_AZw9g5VYEeyAE9_Corbzmw"
+              red="255" green="255" blue="255"/>
+          <colorForeground uuid="_AZw9hJVYEeyAE9_Corbzmw"
+              red="128" green="128" blue="128"/>
+          <colorSelected uuid="_AZw9hZVYEeyAE9_Corbzmw"
+              red="255" green="255" blue="255"/>
+        </guiBarStyle>
+        <subMenus uuid="_I9xdAHABEeSk24oMIozLgA" name="SubMenu"
+            varTable="">
+          <extraData xsi:type="appl:ExtraDataTable"
+              uuid="_76VbwDm6EeWfQ_oMDfUKzA" name="ExtraDataTable1">
+            <rows uuid="_UklLYORfEea8xOHyn3JswA" in="line"
+                out="1"/>
+            <rows uuid="_UklLYeRfEea8xOHyn3JswA" in="filling"
+                out="2"/>
+            <rows uuid="_UklLYuRfEea8xOHyn3JswA" in=""
+                out=""/>
+            <rows uuid="_UklLY-RfEea8xOHyn3JswA" in=""
+                out=""/>
+            <inTypeSet uuid="_UklLZORfEea8xOHyn3JswA"
+                bitSet="458767"/>
+            <outTypeSet uuid="_UklycORfEea8xOHyn3JswA"
+                bitSet="458767"/>
+          </extraData>
+          <headerText uuid="_AZw9jpVYEeyAE9_Corbzmw"/>
+        </subMenus>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_tHd1MGq1EeSU5fRCDlCvNA"
+      name="Step2-ToolBar" unitType="SINGLEPANEL" initialPanel="_webxAGq1EeSU5fRCDlCvNA">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZw9kJVYEeyAE9_Corbzmw"
+        height="389" width="36" xPosition="1245" yPosition="109"
+        visible="false"/>
+    <panels uuid="_webxAGq1EeSU5fRCDlCvNA" name="ToolBarButtons"
+        panelType="XYPANEL" style="_6uuVEGq1EeSU5fRCDlCvNA">
+      <items xsi:type="gui:Button" uuid="_AGCTMG_0EeSb6NXyjhnDPg"
+          name="ShowViewPointInitial" xPosition="5"
+          yPosition="10" style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_2QTE0DkwEeWWD8GpiO38pw"/>
+        <imageDown href="../model.build#_46GYoDkwEeWWD8GpiO38pw"/>
+        <text uuid="_AZw9lZVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_DJdn8G_0EeSb6NXyjhnDPg"
+            name="ShowViewPointInit" actionRef="_E7b74G_0EeSb6NXyjhnDPg"/>
+      </items>
+      <items xsi:type="gui:Button" uuid="_VL89AG_0EeSb6NXyjhnDPg"
+          name="Delete" xPosition="5" yPosition="50"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_8X9e8G_zEeSb6NXyjhnDPg"/>
+        <imageDown href="../model.build#_86e9MG_zEeSb6NXyjhnDPg"/>
+        <text uuid="_AZw9mpVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_ZVJnAG_0EeSb6NXyjhnDPg"
+            name="Delete" actionRef="_Z6pgwG_0EeSb6NXyjhnDPg"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_g4PZkDaoEeWAFM5M7sPVIA"
+      name="Step2-Settings-Simple" unitType="SINGLEPANEL"
+      initialPanel="_tpEAsDaoEeWAFM5M7sPVIA">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZw9nZVYEeyAE9_Corbzmw"
+        height="56" width="906" xPosition="97" yPosition="598"
+        visible="false"/>
+    <panels uuid="_tpEAsDaoEeWAFM5M7sPVIA" name="panel_init"
+        style="_Bj_OoGq0EeSf2roTWK8_Lg" toa="world">
+      <items xsi:type="gui:Text" uuid="_kdb7kDeNEeWaY-rz5GozQw"
+          name="Header" style="_yDmtsHAIEeSePcy3DK4xYQ">
+        <text uuid="_AZw9oJVYEeyAE9_Corbzmw" value="Settings"/>
+      </items>
+      <items xsi:type="gui:TIOStandardItem" uuid="_UQ17sDeOEeWaY-rz5GozQw"
+          name="Three-In-OneStandardItem1" editable="false"
+          order="1" xPosition="100" style="_bbutcW_-EeSk24oMIozLgA"
+          varName="world:drink_type">
+        <text uuid="_AZw9opVYEeyAE9_Corbzmw" value="Drink:"/>
+      </items>
+      <items xsi:type="gui:TIOStandardItem" uuid="_Cyl7ETrOEeWyh9yBT0XVdw"
+          name="Three-In-OneStandardItem2" editable="false"
+          order="2" xPosition="100" style="_bbutcW_-EeSk24oMIozLgA"
+          varName="world:bottle_type">
+        <text uuid="_AZw9pJVYEeyAE9_Corbzmw" value="Bottle:"/>
+      </items>
+      <items xsi:type="gui:TIOStandardItem" uuid="_Do5Q8TrOEeWyh9yBT0XVdw"
+          name="Three-In-OneStandardItem3" editable="false"
+          order="3" xPosition="100" style="_bbutcW_-EeSk24oMIozLgA"
+          varName="world:drink_volume">
+        <text uuid="_AZw9ppVYEeyAE9_Corbzmw" value="Volume:"/>
+      </items>
+    </panels>
+    <panels uuid="_T2dhMDrNEeWyh9yBT0XVdw" name="process"
+        style="_Bj_OoGq0EeSf2roTWK8_Lg" toa="process">
+      <items xsi:type="gui:StandardItem" uuid="_aB_Z4DrOEeWyh9yBT0XVdw"
+          name="header-comp-name" style="_yDmtsHAIEeSePcy3DK4xYQ"
+          varName="me" type="LABEL"/>
+      <items xsi:type="gui:TIOStandardItem" uuid="_XK7ioDrNEeWyh9yBT0XVdw"
+          name="Three-In-OneStandardItem1" editable="false"
+          order="1" style="_bbutcW_-EeSk24oMIozLgA"
+          varName="linkowner:toa_speed">
+        <text uuid="_AZw9qpVYEeyAE9_Corbzmw" value="Line Speed:"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_8A1-kDaoEeWAFM5M7sPVIA"
+      name="Step2-TotalPrice" unitType="SINGLEPANEL">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZw9rJVYEeyAE9_Corbzmw"
+        height="56" width="277" xPosition="1004" yPosition="598"
+        visible="false"/>
+    <panels uuid="_Gsg3EDapEeWAFM5M7sPVIA" name="PanelXYbgTotalprice"
+        panelType="XYPANEL" style="_V5M6QDeGEeWRmrAuHeh1Ag">
+      <items xsi:type="gui:Text" uuid="_4RRRIDtsEeW9EJAwzNHWdw"
+          name="Text1" xPosition="20" yPosition="20"
+          style="_yDmtsHAIEeSePcy3DK4xYQ">
+        <text uuid="_AZw9r5VYEeyAE9_Corbzmw" value="Total Price:"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_7Aq8MDkzEeWWD8GpiO38pw"
+      name="Step2-ToolBar-ShowMore" unitType="SINGLEPANEL"
+      initialPanel="_Vho5cDk0EeWWD8GpiO38pw">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZw9sZVYEeyAE9_Corbzmw"
+        height="100" width="36" xPosition="1245" yPosition="498"
+        visible="false"/>
+    <panels uuid="_Vho5cDk0EeWWD8GpiO38pw" name="Panel6"
+        panelType="XYPANEL" style="_1Ii1wDk0EeWWD8GpiO38pw">
+      <items xsi:type="gui:Button" uuid="_XmP1gDk0EeWWD8GpiO38pw"
+          name="ShowMoreSettings" xPosition="5" yPosition="80"
+          style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_DNrnkDeMEeWaY-rz5GozQw"/>
+        <imageDown href="../model.build#_D3uqIDeMEeWaY-rz5GozQw"/>
+        <text uuid="_AZw9tpVYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_6gA-0Dk2EeWWD8GpiO38pw"
+            name="ShowMoreSettings" actionRef="_QmmQ4Dk2EeWWD8GpiO38pw"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_c_6hgDk3EeWWD8GpiO38pw"
+      name="Step2-ToolBar-ShowLess" unitType="SINGLEPANEL"
+      initialPanel="_c_6hgTk3EeWWD8GpiO38pw">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZw9uZVYEeyAE9_Corbzmw"
+        height="100" width="36" xPosition="1245" yPosition="498"
+        visible="false"/>
+    <panels uuid="_c_6hgTk3EeWWD8GpiO38pw" name="Panel6"
+        panelType="XYPANEL" style="_aSKFUDk4EeWWD8GpiO38pw">
+      <items xsi:type="gui:Button" uuid="_c_6hgjk3EeWWD8GpiO38pw"
+          name="ShowLessSettings" xPosition="5" style="_3QgI8bbqEeK305n3PlGMhg">
+        <image href="../model.build#_DNrnkDeMEeWaY-rz5GozQw"/>
+        <imageDown href="../model.build#_D3uqIDeMEeWaY-rz5GozQw"/>
+        <text uuid="_AZxkk5VYEeyAE9_Corbzmw"/>
+        <abstractAction xsi:type="gui:ActionRef" uuid="_c_6hgzk3EeWWD8GpiO38pw"
+            name="ShowLessSettings" actionRef="_lCLu2Dk3EeWWD8GpiO38pw"/>
+      </items>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_0nEq8Dk1EeWWD8GpiO38pw"
+      name="Step2-Settings-More" unitType="SINGLEPANEL"
+      initialPanel="_-wkDcDk1EeWWD8GpiO38pw">
+    <facets xsi:type="gui:GUIUnitLayoutFacet" uuid="_AZxklpVYEeyAE9_Corbzmw"
+        height="100" width="1147" xPosition="98" yPosition="498"
+        visible="false"/>
+    <panels uuid="_-wkDcDk1EeWWD8GpiO38pw" name="panel_init_more_settings"
+        style="_mhVfUDk1EeWWD8GpiO38pw" toa="world"/>
+    <panels uuid="_kSgrYDtmEeW9EJAwzNHWdw" name="more_settings_for_line"
+        style="_mhVfUDk1EeWWD8GpiO38pw" toa="line">
+      <items xsi:type="gui:StandardItem" uuid="_siOe0DtmEeW9EJAwzNHWdw"
+          name="InputArea-info_for_sales" style="_w0AdETtmEeW9EJAwzNHWdw"
+          varName="info_for_sales" type="INPUTAREA"/>
+    </panels>
+    <panels uuid="_0PFnYDtnEeW9EJAwzNHWdw" name="more_settings_for_process"
+        style="_mhVfUDk1EeWWD8GpiO38pw" toa="process">
+      <items xsi:type="gui:StandardItem" uuid="_0PFnYTtnEeW9EJAwzNHWdw"
+          name="InputArea-info_for_sales" style="_w0AdETtmEeW9EJAwzNHWdw"
+          varName="info_for_sales" type="INPUTAREA"/>
+    </panels>
+  </guiUnits>
+  <frame uuid="_g71an3CvEeSsYaj_bb2fSA" name="Frame"
+      icon="DefaultUI/Configit/DoNotDelete/Build.png"
+      minHeight="800" minWidth="1200">
+    <systemEventDialog uuid="_UkrSAORfEea8xOHyn3JswA">
+      <text uuid="_AZxknpVYEeyAE9_Corbzmw" value="Are you sure you want to leave the Bottling Plant?"/>
+      <title uuid="_AZxkn5VYEeyAE9_Corbzmw" value="Bye Bye - hope to see you again soon"/>
+    </systemEventDialog>
+    <progressindication uuid="_Ukr5EORfEea8xOHyn3JswA">
+      <animations uuid="_GN_GYHYqEeSHELBrgOlIgg" name="ProgressWheel"
+          text="In Progress" animationtype="WHEEL"/>
+    </progressindication>
+    <backgroundColor uuid="_AZxkopVYEeyAE9_Corbzmw"
+        red="229" green="229" blue="229"/>
+    <title uuid="_AZxko5VYEeyAE9_Corbzmw" value="Build"/>
+  </frame>
+  <tables uuid="_ga8bYDtPEeW9EJAwzNHWdw" name="image-for-bottle-result">
+    <rows uuid="_UktHM-RfEea8xOHyn3JswA" in="soda_can"
+        out="step3/coke_can.png"/>
+    <rows uuid="_UktHNORfEea8xOHyn3JswA" in="soda_plastic"
+        out="step3/coke_plastic.png"/>
+    <rows uuid="_UktHNeRfEea8xOHyn3JswA" in="soda_glass"
+        out="step3/coke_glass.png"/>
+    <rows uuid="_UktHNuRfEea8xOHyn3JswA" in="smoothie_plastic"
+        out="step3/smoothie.png"/>
+    <rows uuid="_UktHN-RfEea8xOHyn3JswA" in="smoothie_glass"
+        out="step3/smoothie.png"/>
+    <rows uuid="_UktHOORfEea8xOHyn3JswA" in="smoothie_can"
+        out="step3/smoothie.png"/>
+    <rows uuid="_UktHOeRfEea8xOHyn3JswA" in="beer_can"
+        out="step3/beer_pouring.png"/>
+    <rows uuid="_UktHOuRfEea8xOHyn3JswA" in="beer_plastic"
+        out="step3/beer_pouring.png"/>
+    <rows uuid="_UktHO-RfEea8xOHyn3JswA" in="beer_glass"
+        out="step3/beer_pouring.png"/>
+    <rows uuid="_UktHPORfEea8xOHyn3JswA" in="water_can"
+        out="step3/water_pouring.png"/>
+    <rows uuid="_UktHPeRfEea8xOHyn3JswA" in="water_plastic"
+        out="step3/water_pouring.png"/>
+    <rows uuid="_UktHPuRfEea8xOHyn3JswA" in="water_glass"
+        out="step3/water_pouring.png"/>
+    <inTypeSet uuid="_UktHP-RfEea8xOHyn3JswA" bitSet="458767"/>
+    <outTypeSet uuid="_UktHQORfEea8xOHyn3JswA" bitSet="458767"/>
+  </tables>
+  <tables uuid="_1se1sHAEEeSePcy3DK4xYQ" name="Images-for-inserter-bar">
+    <rows uuid="_UktuQ-RfEea8xOHyn3JswA" in="filling"
+        out="compImage_filling.png"/>
+    <rows uuid="_UktuRORfEea8xOHyn3JswA" in="labelling"
+        out="compImage_labelling.png"/>
+    <rows uuid="_UktuReRfEea8xOHyn3JswA" in="capping"
+        out="compImage_capping.png"/>
+    <rows uuid="_UktuRuRfEea8xOHyn3JswA" in="line" out="compImage_line.png"/>
+    <inTypeSet uuid="_UktuR-RfEea8xOHyn3JswA" bitSet="458767"/>
+    <outTypeSet uuid="_UktuSORfEea8xOHyn3JswA" bitSet="458767"/>
+  </tables>
+  <tables uuid="_KLskkDd2EeWRmrAuHeh1Ag" name="images-for-drink_type">
+    <rows uuid="_UktuTORfEea8xOHyn3JswA" in="soda" out="step1/soda.png"/>
+    <rows uuid="_UktuTeRfEea8xOHyn3JswA" in="smoothie"
+        out="step1/smoothie.png"/>
+    <rows uuid="_UktuTuRfEea8xOHyn3JswA" in="beer" out="step1/beer.png"/>
+    <rows uuid="_UktuT-RfEea8xOHyn3JswA" in="water"
+        out="step1/water.png"/>
+    <inTypeSet uuid="_UktuUORfEea8xOHyn3JswA" bitSet="458767"/>
+    <outTypeSet uuid="_UktuUeRfEea8xOHyn3JswA" bitSet="458767"/>
+  </tables>
+  <tables uuid="_mM7yQDlZEeWWD8GpiO38pw" name="image-for-bottle-type">
+    <rows uuid="_UktuVeRfEea8xOHyn3JswA" in="soda_can"
+        out="step1/cans.png"/>
+    <rows uuid="_UktuVuRfEea8xOHyn3JswA" in="soda_plastic"
+        out="step1/soda_plastic.png"/>
+    <rows uuid="_UktuV-RfEea8xOHyn3JswA" in="soda_glass"
+        out="step1/soda_glass.png"/>
+    <rows uuid="_UktuWORfEea8xOHyn3JswA" in="smoothie_plastic"
+        out="step1/smoothie_plastic.png"/>
+    <rows uuid="_UktuWeRfEea8xOHyn3JswA" in="smoothie_glass"
+        out="step1/smoothie_glass.png"/>
+    <rows uuid="_UktuWuRfEea8xOHyn3JswA" in="smoothie_can"
+        out="step1/cans.png"/>
+    <rows uuid="_UkuVUORfEea8xOHyn3JswA" in="beer_can"
+        out="step1/cans.png"/>
+    <rows uuid="_UkuVUeRfEea8xOHyn3JswA" in="beer_plastic"
+        out="step1/beer_plastic.png"/>
+    <rows uuid="_UkuVUuRfEea8xOHyn3JswA" in="beer_glass"
+        out="step1/beer_glass.png"/>
+    <rows uuid="_UkuVU-RfEea8xOHyn3JswA" in="water_can"
+        out="step1/cans.png"/>
+    <rows uuid="_UkuVVORfEea8xOHyn3JswA" in="water_plastic"
+        out="step1/water_plastic.png"/>
+    <rows uuid="_UkuVVeRfEea8xOHyn3JswA" in="water_glass"
+        out="step1/water_glass.png"/>
+    <inTypeSet uuid="_UkuVVuRfEea8xOHyn3JswA" bitSet="458767"/>
+    <outTypeSet uuid="_UkuVV-RfEea8xOHyn3JswA" bitSet="458767"/>
+  </tables>
+  <tables uuid="_1ox1MDlZEeWWD8GpiO38pw" name="images-for-volume">
+    <rows uuid="_UkuVW-RfEea8xOHyn3JswA" in="water_150"
+        out="step1/volume_water_150.png"/>
+    <rows uuid="_UkuVXORfEea8xOHyn3JswA" in="water_75"
+        out="step1/volume_water_75.png"/>
+    <rows uuid="_UkuVXeRfEea8xOHyn3JswA" in="water_50"
+        out="step1/volume_water_50.png"/>
+    <rows uuid="_UkuVXuRfEea8xOHyn3JswA" in="water_33"
+        out="step1/volume_water_33.png"/>
+    <rows uuid="_UkuVX-RfEea8xOHyn3JswA" in="beer_150"
+        out="step1/volume_beer_150.png"/>
+    <rows uuid="_UkuVYORfEea8xOHyn3JswA" in="beer_75"
+        out="step1/volume_beer_75.png"/>
+    <rows uuid="_UkuVYeRfEea8xOHyn3JswA" in="beer_50"
+        out="step1/volume_beer_50.png"/>
+    <rows uuid="_UkuVYuRfEea8xOHyn3JswA" in="beer_33"
+        out="step1/volume_beer_33.png"/>
+    <rows uuid="_UkuVY-RfEea8xOHyn3JswA" in="soda_150"
+        out="step1/volume_soda_150.png"/>
+    <rows uuid="_UkuVZORfEea8xOHyn3JswA" in="soda_75"
+        out="step1/volume_soda_75.png"/>
+    <rows uuid="_UkuVZeRfEea8xOHyn3JswA" in="soda_50"
+        out="step1/volume_soda_50.png"/>
+    <rows uuid="_UkuVZuRfEea8xOHyn3JswA" in="soda_33"
+        out="step1/volume_soda_33.png"/>
+    <rows uuid="_UkuVZ-RfEea8xOHyn3JswA" in="smoothie_150"
+        out="step1/volume_smoothie_150.png"/>
+    <rows uuid="_UkuVaORfEea8xOHyn3JswA" in="smoothie_75"
+        out="step1/volume_smoothie_75.png"/>
+    <rows uuid="_UkuVaeRfEea8xOHyn3JswA" in="smoothie_50"
+        out="step1/volume_smoothie_50.png"/>
+    <rows uuid="_UkuVauRfEea8xOHyn3JswA" in="smoothie_33"
+        out="step1/volume_smoothie_33.png"/>
+    <inTypeSet uuid="_Uku8YORfEea8xOHyn3JswA" bitSet="458767"/>
+    <outTypeSet uuid="_Uku8YeRfEea8xOHyn3JswA" bitSet="458767"/>
+  </tables>
+  <actiondefinitions uuid="_Uku8YuRfEea8xOHyn3JswA">
+    <actionDefinitions xsi:type="gui:CompoundAction"
+        uuid="_lCLu2Dk3EeWWD8GpiO38pw" name="ShowLessSettings">
+      <actions xsi:type="gui:FrameAction" uuid="_lCLu2Tk3EeWWD8GpiO38pw"
+          name="01-ResetViewer" order="1" actionValue="Step2-Viewer"
+          actionType="RESETUNITLAYOUT"/>
+      <actions xsi:type="gui:FrameAction" uuid="_5AX7kDk3EeWWD8GpiO38pw"
+          name="02-ShowToolBarShowMore" order="2" actionValue="Step2-ToolBar-ShowMore"
+          actionType="SHOWUNIT"/>
+      <actions xsi:type="gui:FrameAction" uuid="_lCLu3zk3EeWWD8GpiO38pw"
+          name="03-HideSettingsMore" order="3" actionValue="Step2-Settings-More"/>
+      <actions xsi:type="gui:FrameAction" uuid="_lCLu3jk3EeWWD8GpiO38pw"
+          name="04-HideShowLess" order="4" actionValue="Step2-ToolBar-ShowLess"/>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_E7b74G_0EeSb6NXyjhnDPg"
+        name="ShowViewPointInit" actionValue="ViewPoint_initial"
+        actionType="SETVIEWPOINT"/>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_Z6pgwG_0EeSb6NXyjhnDPg"
+        name="Delete" actionType="DELETE"/>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_zliX0HYZEeSV1N5l7j34iw"
+        name="ShowLog" actionValue="savepath:logs/configurator.log"
+        actionType="URL"/>
+    <actionDefinitions xsi:type="gui:FrameAction" uuid="_hSG98DdfEeWRmrAuHeh1Ag"
+        name="GoToStep1" actionType="SHOWUNITLIST">
+      <extraData xsi:type="appl:ExtraDataList" uuid="_l6VtUDdfEeWRmrAuHeh1Ag"
+          name="unitlist">
+        <elements>Step1-Settings</elements>
+        <elements>Step1-TopBar</elements>
+        <elements>MenuInTheTop</elements>
+        <typeSet uuid="_UkwxkeRfEea8xOHyn3JswA" bitSet="458767"/>
+      </extraData>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:CompoundAction"
+        uuid="_2RRmIDk5EeWWD8GpiO38pw" name="GoToStep2">
+      <actions xsi:type="gui:FrameAction" uuid="_-dF6UDdzEeWRmrAuHeh1Ag"
+          name="Step2" order="1" actionType="SHOWUNITLIST">
+        <extraData xsi:type="appl:ExtraDataList" uuid="__m3l0DdzEeWRmrAuHeh1Ag"
+            name="unitlist">
+          <elements>MenuInTheTop</elements>
+          <elements>Step2-TopBar</elements>
+          <elements>Step2-Viewer</elements>
+          <elements>Step2-Inserter</elements>
+          <elements>Step2-ToolBar</elements>
+          <elements>Step2-Settings-Simple</elements>
+          <elements>Step2-TotalPrice</elements>
+          <elements>Step2-ToolBar-ShowMore</elements>
+          <typeSet uuid="_UkwxleRfEea8xOHyn3JswA" bitSet="458767"/>
+        </extraData>
+      </actions>
+      <actions xsi:type="gui:FrameAction" uuid="_3sow4Dk5EeWWD8GpiO38pw"
+          name="ResetViewer" actionValue="Step2-Viewer"
+          actionType="RESETUNITLAYOUT"/>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:CompoundAction"
+        uuid="_QmmQ4Dk2EeWWD8GpiO38pw" name="ShowMoreSettings">
+      <actions xsi:type="gui:FrameAction" uuid="_Z9qG4Dk2EeWWD8GpiO38pw"
+          name="01-ShowSettingsMore" order="1" actionValue="Step2-Settings-More"
+          actionType="SHOWUNIT"/>
+      <actions xsi:type="gui:FrameAction" uuid="_gTPv8Dk2EeWWD8GpiO38pw"
+          name="02-Scale_Viewer" order="2" actionValue="Step2-Viewer"
+          actionType="SETUNITLAYOUT">
+        <extraData xsi:type="appl:ExtraDataConstant"
+            uuid="_ozkyQDk2EeWWD8GpiO38pw" name="height"
+            value="389"/>
+        <extraData xsi:type="appl:ExtraDataConstant"
+            uuid="_JBRo0Dk3EeWWD8GpiO38pw" name="width"
+            value="1147"/>
+        <extraData xsi:type="appl:ExtraDataConstant"
+            uuid="_OINGYDk3EeWWD8GpiO38pw" name="xposition"
+            value="98"/>
+        <extraData xsi:type="appl:ExtraDataConstant"
+            uuid="_OsNLUDk3EeWWD8GpiO38pw" name="yposition"
+            value="109"/>
+      </actions>
+      <actions xsi:type="gui:FrameAction" uuid="_7JwNcDk4EeWWD8GpiO38pw"
+          name="03-ShowToolBarShowLess" order="3" actionValue="Step2-ToolBar-ShowLess"
+          actionType="SHOWUNIT"/>
+      <actions xsi:type="gui:FrameAction" uuid="_TSblADk2EeWWD8GpiO38pw"
+          name="04-HideShowMore" order="4" actionValue="Step2-ToolBar-ShowMore"/>
+      <actions xsi:type="gui:ItemAction" uuid="_TE9pkDleEeWdn7Z501yW2A"
+          name="choose_drink" actionValue="world:type_of_drink"
+          actionType="SETVARIABLE">
+        <extraData xsi:type="appl:ExtraDataConstant"
+            uuid="_TE9pkTleEeWdn7Z501yW2A" name="value"
+            value="smoothie"/>
+      </actions>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_sVAr4Dd5EeWRmrAuHeh1Ag"
+        name="choose_drink" actionValue="world:drink_type"
+        actionType="SETVARIABLE">
+      <extraData xsi:type="appl:ExtraDataConstant" uuid="_xtt18Dd5EeWRmrAuHeh1Ag"
+          name="sourcetype" value="legalvalues"/>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_Tn9B4DleEeWdn7Z501yW2A"
+        name="choose_bottle" actionValue="world:bottle_type"
+        actionType="SETVARIABLE">
+      <extraData xsi:type="appl:ExtraDataConstant" uuid="_Tn9B4TleEeWdn7Z501yW2A"
+          name="sourcetype" value="legalvalues"/>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_XsPWsjleEeWdn7Z501yW2A"
+        name="choose_drink_volume" actionValue="world:drink_volume"
+        actionType="SETVARIABLE">
+      <extraData xsi:type="appl:ExtraDataConstant" uuid="_XsPWszleEeWdn7Z501yW2A"
+          name="sourcetype" value="legalvalues"/>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ConditionAction"
+        uuid="_m1Ex8DtqEeW9EJAwzNHWdw" name="reload_w_warning">
+      <condition uuid="_oIStUDtqEeW9EJAwzNHWdw" name="Condition1">
+        <constants uuid="_kUjggTtrEeW9EJAwzNHWdw" name="dialogtitle"
+            value="Build"/>
+        <constants uuid="_krZTMTtrEeW9EJAwzNHWdw" name="dialogmessage"
+            value="Are you sure you want to delete your configuration and start from scratch?"/>
+      </condition>
+      <clauses uuid="_z6l2sDtqEeW9EJAwzNHWdw" name="ClauseIfTRUE">
+        <actions xsi:type="gui:SystemAction" uuid="_1GsdcDtqEeW9EJAwzNHWdw"
+            name="reset" actionType="RESET"/>
+        <actions xsi:type="gui:ActionRef" uuid="_3AB9oDtqEeW9EJAwzNHWdw"
+            name="go_to_first_page" order="1" actionRef="_hSG98DdfEeWRmrAuHeh1Ag"/>
+      </clauses>
+    </actionDefinitions>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_VMIZMJVYEeyAE9_Corbzmw"
+        name="URL" actionValue="https://configit.com/?s=[$Custom_Data]"
+        actionType="URL"/>
+  </actiondefinitions>
+</gui:GUIModel>

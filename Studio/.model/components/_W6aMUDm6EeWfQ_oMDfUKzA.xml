@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_W6aMUDm6EeWfQ_oMDfUKzA" name="line"
+    componentClass="LINKOWNER" cluster="true" insertFree="true">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_mL0M4DqWEeWdCId61eGGcQ"
+      name="length" visibility="800" initValue="0">
+    <facets xsi:type="comp:VariableResourcePoolFacet"
+        uuid="_UjtBoORfEea8xOHyn3JswA"/>
+    <domain uuid="_mL0M4TqWEeWdCId61eGGcQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UjtBo-RfEea8xOHyn3JswA" bitSet="393226"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ldAw4Dq8EeW7eKf1zr21FA"
+      name="length_mirr" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_Uju20ORfEea8xOHyn3JswA" mirroredVariable="length"/>
+    <domain uuid="_ldAw4Tq8EeW7eKf1zr21FA" name="local"
+        visibility="300">
+      <typeSet uuid="_Ujvd4ORfEea8xOHyn3JswA" bitSet="10"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2TUJYDrtEeW-evjdT3l3QQ"
+      name="packaging_image" visibility="800" initValue="packaging.svg">
+    <domain uuid="_2TUJYTrtEeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_Ujvd5uRfEea8xOHyn3JswA" bitSet="4"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_EjiQQDr6EeW-evjdT3l3QQ"
+      name="bottle_image" visibility="800" initValue="loading_bottle_glass.svg">
+    <domain uuid="_EjiQQTr6EeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_Ujvd7ORfEea8xOHyn3JswA" bitSet="4"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_mfSHkDr7EeW-evjdT3l3QQ"
+      name="toa_bottle_type" visibility="800" initValue="world:toa_bottle_type">
+    <domain uuid="_mfSuoDr7EeW-evjdT3l3QQ" name="local"
+        visibility="300">
+      <typeSet uuid="_UjwE8ORfEea8xOHyn3JswA" bitSet="458756"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_gOaj0DtmEeW9EJAwzNHWdw"
+      name="info_for_sales" visibility="800" initValue="Here you write additional information">
+    <domain uuid="_gOaj0TtmEeW9EJAwzNHWdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UjwE9uRfEea8xOHyn3JswA" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_L_5xMDtoEeW9EJAwzNHWdw"
+      name="drink_volume_mirr_from_world" visibility="800"
+      initValue="world:drink_volume">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_UjwE-uRfEea8xOHyn3JswA" customMirroredVariable="world:drink_volume"/>
+    <domain uuid="_L_5xMTtoEeW9EJAwzNHWdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UjwE_eRfEea8xOHyn3JswA" bitSet="4"/>
+      <values uuid="_NM36oDtoEeW9EJAwzNHWdw" name="150"
+          visibility="300">
+        <displayName uuid="_AZ4505VYEeyAE9_Corbzmw"
+            value="1.5 liter"/>
+      </values>
+      <values uuid="_NM36oTtoEeW9EJAwzNHWdw" name="75"
+          visibility="300">
+        <displayName uuid="_AZ451ZVYEeyAE9_Corbzmw"
+            value="75 cl"/>
+      </values>
+      <values uuid="_NM36ojtoEeW9EJAwzNHWdw" name="50"
+          visibility="300">
+        <displayName uuid="_AZ4515VYEeyAE9_Corbzmw"
+            value="0.5 liter"/>
+      </values>
+      <values uuid="_NM36oztoEeW9EJAwzNHWdw" name="33"
+          visibility="300">
+        <displayName uuid="_AZ452ZVYEeyAE9_Corbzmw"
+            value="33 cl"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_7afBoDtoEeW9EJAwzNHWdw"
+      name="drink_type_mirr_from_world" visibility="800"
+      initValue="world:drink_type">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_UjzIQeRfEea8xOHyn3JswA" customMirroredVariable="world:drink_type"/>
+    <domain uuid="_7afBoTtoEeW9EJAwzNHWdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UjzIRORfEea8xOHyn3JswA" bitSet="4"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DoN4EDtpEeW9EJAwzNHWdw"
+      name="bottle_type_mirr_from_world" visibility="800"
+      initValue="world:bottle_type">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_UjzISORfEea8xOHyn3JswA" customMirroredVariable="world:bottle_type"/>
+    <domain uuid="_DoN4ETtpEeW9EJAwzNHWdw" name="local"
+        visibility="300">
+      <typeSet uuid="_UjzIS-RfEea8xOHyn3JswA" bitSet="4"/>
+    </domain>
+  </variables>
+  <calculation uuid="_dIlRMDrrEeW-evjdT3l3QQ" name="Calculation4"
+      visibility="800">
+    <text>if (packaging == true)&#xD;
+packaging_image = &quot;packaging.svg&quot;;&#xD;
+else&#xD;
+packaging_image = &quot;packaging_none.svg&quot;;&#xD;
+&#xD;
+bottle_image = &quot;loading_bottle_&quot; + toa_bottle_type + &quot;.svg&quot;;</text>
+  </calculation>
+  <geometry uuid="_W6aMUTm6EeWfQ_oMDfUKzA" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_dBwlEDm6EeWfQ_oMDfUKzA"
+        name="svg_line_start">
+      <translation uuid="_AZ455ZVYEeyAE9_Corbzmw" x="-300.0"/>
+      <file href="../../model.build#_lecbgFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_FtYdkDqUEeWdCId61eGGcQ"
+        name="svg_line_contol_desk">
+      <translation uuid="_AZ456JVYEeyAE9_Corbzmw" x="-625.0"
+          z="-18.0"/>
+      <file href="../../model.build#_i_GrQFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_U60mMDqWEeWdCId61eGGcQ"
+        name="svg_loading_bottle">
+      <facets xsi:type="comp:TwoDDynamicFileFacet" uuid="_Uj2yoORfEea8xOHyn3JswA"
+          fileDynamic="bottle_image"/>
+      <translation uuid="_AZ457JVYEeyAE9_Corbzmw" x="-250.0"
+          z="-246.0"/>
+      <file href="../../model.build#_rXRQEFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDSVG" uuid="_4rvhUDqVEeWdCId61eGGcQ"
+        name="svg_loading_arrows">
+      <translation uuid="_AZ4575VYEeyAE9_Corbzmw" x="-250.0"
+          z="-54.0"/>
+      <file href="../../model.build#_nPydUFccEeW8A7pMJjPxVg"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDText" uuid="_BOFyUDqVEeWdCId61eGGcQ"
+        name="2DText_my_name" text="Line" fontSize="25">
+      <translation uuid="_AZ458pVYEeyAE9_Corbzmw" x="-250.0"
+          z="70.0"/>
+      <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+      <bgColor href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <units uuid="_eTD04Dm6EeWfQ_oMDfUKzA" name="position_of_end">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_Uj4n0ORfEea8xOHyn3JswA" variable="length_mirr">
+        <vector xsi:type="appl:Coordinate3D" uuid="_AZ4595VYEeyAE9_Corbzmw"
+            x="1.0"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDSVG" uuid="_S1SzMDqNEeWdCId61eGGcQ"
+          name="svg_line_end">
+        <translation uuid="_AZ45-ZVYEeyAE9_Corbzmw"/>
+        <file href="../../model.build#_k2tGEFccEeW8A7pMJjPxVg"/>
+      </twoDElement>
+      <children uuid="_aH8E8DqOEeWdCId61eGGcQ" name="packaging"
+          position="(150,0,40)">
+        <twoDElement xsi:type="comp:TwoDSVG" uuid="_amtEkDqOEeWdCId61eGGcQ"
+            name="svg_packaging">
+          <facets xsi:type="comp:TwoDDynamicFileFacet"
+              uuid="_Uj5O4-RfEea8xOHyn3JswA" fileDynamic="packaging_image"/>
+          <translation uuid="_AZ45_pVYEeyAE9_Corbzmw"/>
+          <file href="../../model.build#_ugWg4FccEeW8A7pMJjPxVg"/>
+        </twoDElement>
+      </children>
+    </units>
+    <units uuid="_Po_xEDtjEeW9EJAwzNHWdw" name="place-bottle-text"
+        position="(-160,0,-140)">
+      <twoDElement xsi:type="comp:TwoDText" uuid="_OS3roDtjEeW9EJAwzNHWdw"
+          name="2DText-drink-volume" text="2 liter"
+          fontSize="16">
+        <facets xsi:type="comp:TwoDDynamicTextFacet"
+            uuid="_Uj518ORfEea8xOHyn3JswA" textDynamic="drink_volume_mirr_from_world"/>
+        <translation uuid="_AZ46A5VYEeyAE9_Corbzmw"
+            z="16.0"/>
+        <color href="../product_model.xml#_BiA5EDqDEeWansBVxKWemw"/>
+        <bgColor href="../product_model.xml#N65562"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDText" uuid="_vOv20DtjEeW9EJAwzNHWdw"
+          name="2DText-drink-type" text="smoothie" fontSize="16">
+        <facets xsi:type="comp:TwoDDynamicTextFacet"
+            uuid="_Uj6dAORfEea8xOHyn3JswA" textDynamic="drink_type_mirr_from_world"/>
+        <translation uuid="_AZ46CJVYEeyAE9_Corbzmw"
+            z="36.0"/>
+        <color href="../product_model.xml#_BiA5EDqDEeWansBVxKWemw"/>
+        <bgColor href="../product_model.xml#N65562"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDText" uuid="_viVhMDtjEeW9EJAwzNHWdw"
+          name="2DText-bottle-type" text="bottle" fontSize="16">
+        <facets xsi:type="comp:TwoDDynamicTextFacet"
+            uuid="_Uj6dAuRfEea8xOHyn3JswA" textDynamic="bottle_type_mirr_from_world"/>
+        <translation uuid="_AZ46DZVYEeyAE9_Corbzmw"
+            z="56.0"/>
+        <color href="../product_model.xml#_BiA5EDqDEeWansBVxKWemw"/>
+        <bgColor href="../product_model.xml#N65562"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_W6aMUjm6EeWfQ_oMDfUKzA" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_pw_XUDnnEeWnOZbnEqNz0g" name="subLink"
+      initValue="NONE" public="false" type="SUBLINK"
+      components="filling, NONE, " lineInsertVariable="true">
+    <facets xsi:type="comp:LineControllerFacet" uuid="_Uj8SMORfEea8xOHyn3JswA"/>
+    <facets xsi:type="comp:PlugFacet" uuid="_Uj85QORfEea8xOHyn3JswA"/>
+    <domain uuid="_pw_XUTnnEeWnOZbnEqNz0g" name="local"
+        visibility="300">
+      <typeSet uuid="_Uj9gUuRfEea8xOHyn3JswA" bitSet="65536"/>
+      <values uuid="_rT57kDnnEeWnOZbnEqNz0g" name="filling"
+          visibility="300">
+        <displayName uuid="_AZ46F5VYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_rtijkDnnEeWnOZbnEqNz0g" name=""
+          visibility="300">
+        <displayName uuid="_AZ46GZVYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="_sGpAEDnnEeWnOZbnEqNz0g" name=""
+          visibility="300">
+        <displayName uuid="_AZ46G5VYEeyAE9_Corbzmw"/>
+      </values>
+      <values uuid="N66192" name="NONE" visibility="300">
+        <displayName uuid="_AZ46HZVYEeyAE9_Corbzmw"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_AZ46HpVYEeyAE9_Corbzmw" value="Bottling Plant"/>
+</comp:Component>

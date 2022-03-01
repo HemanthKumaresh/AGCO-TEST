@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exporter:ExporterModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:exporter="http://virtubild.com/schemas/exporter.ecore"
+    uuid="_Uk1DAORfEea8xOHyn3JswA"
+    deletable="false">
+  <itemExports uuid="_tOOsMDtFEeW9EJAwzNHWdw" name="dts_bom">
+    <conditionals uuid="_uq8h0DtFEeW9EJAwzNHWdw" name="component"
+        toa="component">
+      <items uuid="_wrYIgDtFEeW9EJAwzNHWdw" name="item"
+          pattern="[$my_name] No. [#ID_NUMBER]">
+        <expressionVariables uuid="_GZCHwDtGEeW9EJAwzNHWdw"
+            name="my_name" variable="me"/>
+        <properties uuid="_QtahoDtGEeW9EJAwzNHWdw" name="descr"
+            value="This is my description"/>
+      </items>
+    </conditionals>
+  </itemExports>
+  <organizers uuid="_IbAmkDtGEeW9EJAwzNHWdw" name="Organizer-Item"
+      organizeProperties="item"/>
+  <tableizers uuid="_JViVIDtGEeW9EJAwzNHWdw" name="Tableizer_bom">
+    <columns xsi:type="exporter:TextColumn" uuid="_L6iBcDtGEeW9EJAwzNHWdw"
+        name="ArtNo" sourceName="item"/>
+    <columns xsi:type="exporter:TextColumn" uuid="_OQJ1ADtGEeW9EJAwzNHWdw"
+        name="Description" sourceName="descr"/>
+    <columns xsi:type="exporter:CalcColumn" uuid="_FBOx4DtHEeW9EJAwzNHWdw"
+        name="qty" itemSum="true" text="my_result_var = 1;"/>
+    <columns xsi:type="exporter:CalcColumn" uuid="_1K3WIDtGEeW9EJAwzNHWdw"
+        name="price" text="my_result_var = price;">
+      <expressionVar uuid="_2v8dkDtGEeW9EJAwzNHWdw"
+          name="price" sourceName="price" defaultValue="100"/>
+    </columns>
+    <columns xsi:type="exporter:CalcColumn" uuid="_aIrFsDtHEeW9EJAwzNHWdw"
+        name="price_sum" itemSum="true" text="my_result_var = column_price;">
+      <expressionVar uuid="_b-8q0DtHEeW9EJAwzNHWdw"
+          name="column_price" sourceName="price" sourceType="COLUMN"/>
+    </columns>
+  </tableizers>
+</exporter:ExporterModel>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="74.497612"
+   height="247.47606"
+   id="svg4782"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="loading_bottle_glass.svg">
+  <defs
+     id="defs4784">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3942"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3977"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3977-2"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4062"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8851909"
+     inkscape:cx="6.8675728"
+     inkscape:cy="139.02468"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4787">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1070.6169,78.754414)">
+    <path
+       style="fill:none;stroke:#d9d9d9;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1095.9607,-77.352653 0.4009,34.872677 c -0.3854,7.903588 -1.874,15.7526 -4.4093,23.248447 -3.689,10.907162 -9.3573,21.073811 -12.8654,32.040497 -3.5081,10.966686 -4.3705,22.583189 -4.3705,34.097317 l 0,113.035555 c 0,1.03157 0.022,2.07619 0.3019,3.06916 0.2796,0.99296 0.8149,1.91663 1.5621,2.62784 0.7472,0.7112 1.6865,1.20153 2.6733,1.5022 0.9868,0.30067 2.0182,0.42179 3.0445,0.52542 8.2057,0.82855 16.4719,0.76854 24.7193,0.73969 8.9744,-0.0314 17.9682,-0.0259 26.8942,-0.95719 0.9965,-0.10397 1.9979,-0.2231 2.9561,-0.51571 0.9582,-0.29262 1.8705,-0.76856 2.5965,-1.45901 0.726,-0.69045 1.2464,-1.58728 1.5182,-2.5516 0.2718,-0.96431 0.2936,-1.97891 0.2936,-2.9808 l 0,-113.035555 c 0,-11.514133 -0.8624,-23.130642 -4.3706,-34.097325 -3.5081,-10.966682 -9.1764,-21.1333185 -12.8654,-32.040489 -2.5352,-7.495845 -4.0239,-15.344861 -4.4092,-23.248447 l 0.4008,-34.872677 -24.071,0"
+       id="path4060"
+       inkscape:path-effect="#path-effect4062"
+       inkscape:original-d="m 1095.9607,-77.352653 0.4009,34.872677 c 0,0 -2.405,16.434246 -4.4093,23.248447 -2.0041,6.814201 -17.2359,44.09188 -17.2359,66.137814 0,22.045946 0,111.432205 0,113.035555 0,1.60334 -1.2366,6.12128 7.5818,7.72462 8.8184,1.60334 4.6671,0.33886 24.7193,0.73969 20.0522,-0.40083 18.0759,0.64615 26.8942,-0.95719 8.8184,-1.60335 7.3644,-5.90378 7.3644,-7.50712 0,-1.60335 0,-90.989609 0,-113.035555 0,-22.045934 -15.2318,-59.323613 -17.236,-66.137814 -2.0042,-6.814201 -4.4092,-23.248447 -4.4092,-23.248447 l 0.4008,-34.872677 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsssscsssscc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#d9d9d9;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6,2;stroke-dashoffset:0"
+       id="rect4085"
+       width="30.122326"
+       height="3.5885806"
+       x="1092.3856"
+       y="-73.370804"
+       rx="0.99999994"
+       ry="0.99999994" />
+  </g>
+</svg>
